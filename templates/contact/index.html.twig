@@ -1,0 +1,106 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Me contacter{% endtrans %}{% endblock %}
+
+{% block body %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <span></span>
+                <ol>
+                    <li><a href="{{ path('home') }}">{% trans %}Accueil{% endtrans %}</a></li>
+                    <li>{% trans %}Me contacter{% endtrans %}</li>
+                </ol>
+            </div>
+
+        </div>
+    </section><!-- Breadcrumbs Section -->
+
+    <!-- ======= Contact ======= -->
+    <section>
+        <div class="container">
+            <div class="row gy-4">
+
+                <div class="col-lg-5 col-sm-12 d-flex justify-content-center align-items-center px-5">
+                    <img class="img-fluid rounded" src="{{ asset('img/op-2021-1.jpg') | imagine_filter('contact') }}"
+                        alt="Olivier Prieur">
+                </div>
+
+                <div class="col-lg-7 col-sm-12">
+                    <h2 class="text-center mb-2">{% trans %}Me contacter{% endtrans %}</h2>
+                    <p class="fs-lg text-center text-muted mb-0">
+                        {% trans %}Une question ? N'hésitez pas à me contacter. Je suis à votre écoute !{% endtrans %}
+                    </p>
+                    <hr class="hr-sm my-6 my-md-8 mx-auto bg-grey-300 mb-4">
+
+                    {{ form_start(form) }}
+                    {% for message in app.flashes('success') %}
+                    <div class="alert alert-success">
+                        {{ message }}
+                    </div>
+                    {% endfor %}
+
+                    <div class="bg-danger">
+                        {{ form_errors(form) }}
+                    </div>
+
+                    <div class="form-group mb-3">
+                        {{ form_row(form.nom, {'label': 'Nom'}) }}
+                    </div>
+
+                    <div class="form-group mb-3">
+                        {{ form_row(form.email, {'label': 'E-mail'}) }}
+                    </div>
+
+                    <div class="form-group mb-3">
+                        {{ form_row(form.message, {'label': 'Votre message'}) }}
+                    </div>
+
+                    <div>
+                        {{ form_row(form.captcha, {'label': 'Veuillez recopier le code antispam'}) }}
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <table>
+                            <tr>
+                                <td>
+                                    {{ form_row(form.envoyer) }}
+                                </td>
+                                <td>
+                                    {{ form_row(form.annuler) }}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    {{ form_end(form) }}
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="mt-3 text-center small">
+                        <span class="h3 text-danger">*</span> {% trans %}J'utilise mon propre serveur Mail, installé sur
+                        un VPS avec : Postfix (SMTP), Dovecot (IMAP),
+                        Rspamd (antispam), Rainloop (webmail), DKIM (norme d'identification) et les filtres
+                        sieve.{% endtrans %}<br>
+                        {% trans %}Vous pouvez retrouver l'article{% endtrans %} <a
+                            href="https://www.citizenz.info/article/un-serveur-de-mail-complet-et-moderne"
+                            target="_blank">"Un serveur de mail
+                            complet et moderne"</a> {% trans %}sur mon blog{% endtrans %} <a
+                            href="https://www.citizenz.info" target="_blank">citizenz.info</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+{% endblock %}

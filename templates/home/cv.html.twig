@@ -1,0 +1,66 @@
+<!-- ======= My Resume Section ======= -->
+<section id="resume" class="resume">
+    <div class="container">
+
+        <div class="section-title">
+            <span>{% trans %}Curriculum Vitae{% endtrans %}</span>
+            <h2>{% trans %}Curriculum Vitae{% endtrans %}</h2>
+            <p>
+                {% trans %}La diversité des structures dans lesquelles j’ai exercé et l’éclectisme de mon parcours me confèrent
+                aujourd’hui une réelle polyvalence{% endtrans %}
+            </p>
+            <p>
+                <a href="{{ asset('uploads/OP-CV-2021-2.pdf') }}" class="btn btn-lg btn-warning px-5 mt-3">
+                    {% trans %}Téléchargez mon CV .pdf{% endtrans %}
+                </a>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+
+                <!-- FORMATION -->
+                <h3 class="resume-title">{% trans %}Formation{% endtrans %}</h3>
+
+                {% for formation in formations %}
+                    <div class="resume-item">
+                        <h4>{{ formation.titre }}</h4>
+                        <h5>
+                            {{ formation.date|format_datetime(pattern="MMMM Y") }}
+                            {% if formation.dateEnd != null %}
+                                 à {{ formation.dateEnd|format_datetime(pattern="MMMM Y") }}
+                            {% endif %}
+                        </h5>
+                        <p><em>{{ formation.lieu }}</em></p>
+                        <p>
+                            {{ formation.presentation|raw }}
+                        </p>
+                    </div>
+                {% endfor %}
+
+            </div>
+
+            <!-- EXPERIENCE PRO -->
+            <div class="col-lg-6">
+                <h3 class="resume-title">{% trans %}Expérience professionnelle{% endtrans %}</h3>
+
+                {% for experience in experiences %}
+                <div class="resume-item">
+                    <h4>{{ experience.titre }}</h4>
+                    {% if experience.dateEnd == null %}
+                        <h5>Depuis {{ experience.date|format_datetime(pattern="MMMM Y") }}</h5>
+                    {% else %}
+                        <h5>{{ experience.date|format_datetime(pattern="MMMM Y") }} à {{ experience.dateEnd|format_datetime(pattern="MMMM Y") }}</h5>
+                    {% endif %}
+                    <p><em>{{ experience.lieu }}</em></p>
+                    <p>
+                        {{ experience.presentation|raw }}
+                    </p>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+
+    </div>
+</section><!-- End My Resume Section -->

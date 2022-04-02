@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Détails du de la fiche : {{ fiches.titre }}{% endblock %}
+
+{% block body %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <span></span>
+                <ol>
+                    <li><a href="{{ path('home') }}">Accueil</a></li>
+                    <li><a href="{{ path('portfolio') }}">Liste des fiches</a></li>
+                    <li>Post : {{ fiches.titre }}</li>
+                </ol>
+            </div>
+
+        </div>
+    </section><!-- Breadcrumbs Section -->
+
+    <!-- ======= News list ======= -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fw-bold">{{ fiches.titre }}</h2>
+                    <h5>{{ fiches.techno }}</h5>
+                    <h6>{{ fiches.annee|date('Y') }}</h6>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-lg-7 col-sm-12">
+                            <p>
+                                {{ fiches.presentation|raw }}
+                            </p>
+                            <p class="border p-3">
+                                {% trans %}Lien vers le media :{% endtrans %} <a href="{{ fiches.url }}"
+                                    target="_blank">{{ fiches.url }}</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 col-sm-12">
+                            <img src="../uploads/fiches/{{ fiches.image }}" alt="{{ fiches.titre }}"
+                                class="img-fluid rounded ps-3">
+                        </div>
+                    </div>
+
+                    {% include 'commentaire/form.html.twig' %}
+
+                    {% include 'commentaire/commentaires.html.twig' %}
+
+                </div>
+            </div>
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->
+
+{% endblock %}

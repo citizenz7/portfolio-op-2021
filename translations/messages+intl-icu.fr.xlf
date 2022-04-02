@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="cuky.4W" resname="Votre message a bien été envoyé. Merci. J'y répondrai dès que possible.">
+        <source>Votre message a bien été envoyé. Merci. J'y répondrai dès que possible.</source>
+        <target>Votre message a bien été envoyé. Merci. J'y répondrai dès que possible.</target>
+      </trans-unit>
+      <trans-unit id="GzFHlMh" resname="Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.">
+        <source>Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.</source>
+        <target>Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.</target>
+      </trans-unit>
+      <trans-unit id="fSmIyed" resname="erreur">
+        <source>erreur</source>
+        <target>erreur</target>
+      </trans-unit>
+      <trans-unit id="ueG2YkL" resname="ERREUR">
+        <source>ERREUR</source>
+        <target>ERREUR</target>
+      </trans-unit>
+      <trans-unit id=".J.ma97" resname="Cliquez sur le bouton ci-dessous">
+        <source>Cliquez sur le bouton ci-dessous</source>
+        <target>Cliquez sur le bouton ci-dessous</target>
+      </trans-unit>
+      <trans-unit id="ooCuL6V" resname="Retour à la page&#10;                        d'accueil">
+        <source>Retour à la page
+                        d'accueil</source>
+        <target>Retour à la page
+                        d'accueil</target>
+      </trans-unit>
+      <trans-unit id="qjP9Mx6" resname="Accès interdit !">
+        <source>Accès interdit !</source>
+        <target>Accès interdit !</target>
+      </trans-unit>
+      <trans-unit id="q2ZaIdZ" resname="&quot;Vous ne passerez pas !&quot;">
+        <source>"Vous ne passerez pas !"</source>
+        <target>"Vous ne passerez pas !"</target>
+      </trans-unit>
+      <trans-unit id="j1KimQe" resname="Veuillez cliquer sur le bouton ci-dessous">
+        <source>Veuillez cliquer sur le bouton ci-dessous</source>
+        <target>Veuillez cliquer sur le bouton ci-dessous</target>
+      </trans-unit>
+      <trans-unit id="vDj_lX9" resname="UH OH! Vous êtes perdu ?!!">
+        <source>UH OH! Vous êtes perdu ?!!</source>
+        <target>UH OH! Vous êtes perdu ?!!</target>
+      </trans-unit>
+      <trans-unit id="ymL_Q_E" resname="La page que vous recherchez n'existe pas. Je ne comprends même pas comment vous êtes&#10;                        arrivé(e) ici ! :D">
+        <source>La page que vous recherchez n'existe pas. Je ne comprends même pas comment vous êtes
+                        arrivé(e) ici ! :D</source>
+        <target>La page que vous recherchez n'existe pas. Je ne comprends même pas comment vous êtes
+                        arrivé(e) ici ! :D</target>
+      </trans-unit>
+      <trans-unit id="YdaVBBA" resname="Connexion">
+        <source>Connexion</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="sBFnVlo" resname="Vous êtes connecté en tant que">
+        <source>Vous êtes connecté en tant que</source>
+        <target>Vous êtes connecté en tant que</target>
+      </trans-unit>
+      <trans-unit id="_1_eksG" resname="Déconnexion">
+        <source>Déconnexion</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="VH0F5Aa" resname="Veuillez vous connecter">
+        <source>Veuillez vous connecter</source>
+        <target>Veuillez vous connecter</target>
+      </trans-unit>
+      <trans-unit id="JVDZYuU" resname="E-mail">
+        <source>E-mail</source>
+        <target>E-mail</target>
+      </trans-unit>
+      <trans-unit id=".5yLjAZ" resname="Mot de passe">
+        <source>Mot de passe</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="Rq05Fva" resname="Annuler">
+        <source>Annuler</source>
+        <target>Annuler</target>
+      </trans-unit>
+      <trans-unit id="pGhY6pF" resname="Passionné par l'univers du web, mes expériences professionnelles m'ont permis d'acquérir de&#10;            nombreuses compétences, savoirs-faire et savoirs-être liés au développement web.&lt;br&gt;&#10;            Linuxien, libriste et geek, je code, je blog et administre des serveurs Linux/xBSD depuis plus de 15&#10;            ans.&lt;br&gt;&#10;            L'éclectisme de mon parcours et ma maturité me confèrent aujourd’hui une réelle polyvalence et l’expérience&#10;            nécessaire à la bonne réalisation des projets.">
+        <source>Passionné par l'univers du web, mes expériences professionnelles m'ont permis d'acquérir de
+            nombreuses compétences, savoirs-faire et savoirs-être liés au développement web.&lt;br&gt;
+            Linuxien, libriste et geek, je code, je blog et administre des serveurs Linux/xBSD depuis plus de 15
+            ans.&lt;br&gt;
+            L'éclectisme de mon parcours et ma maturité me confèrent aujourd’hui une réelle polyvalence et l’expérience
+            nécessaire à la bonne réalisation des projets.</source>
+        <target><![CDATA[Passionné par l'univers du web, mes expériences professionnelles m'ont permis d'acquérir de
+            nombreuses compétences, savoirs-faire et savoirs-être liés au développement web.<br>
+            Linuxien, libriste et geek, je code, je blog et administre des serveurs Linux/xBSD depuis plus de 15
+            ans.<br>
+            L'éclectisme de mon parcours et ma maturité me confèrent aujourd’hui une réelle polyvalence et l’expérience
+            nécessaire à la bonne réalisation des projets.]]></target>
+      </trans-unit>
+      <trans-unit id="3pk2Avb" resname="Par">
+        <source>Par</source>
+        <target>Par</target>
+      </trans-unit>
+      <trans-unit id="YQmKS.K" resname="le">
+        <source>le</source>
+        <target>le</target>
+      </trans-unit>
+      <trans-unit id="wAd0w0b" resname="Laisser un commentaire">
+        <source>Laisser un commentaire</source>
+        <target>Laisser un commentaire</target>
+      </trans-unit>
+      <trans-unit id="9s_VuZu" resname="Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP&#10;        Symfony">
+        <source>Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP
+        Symfony</source>
+        <target>Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP
+        Symfony</target>
+      </trans-unit>
+      <trans-unit id="oITk4fN" resname="Me contacter">
+        <source>Me contacter</source>
+        <target>Me contacter</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="Jsk_1lM" resname="Une question ? N'hésitez pas à me contacter. Je suis à votre écoute !">
+        <source>Une question ? N'hésitez pas à me contacter. Je suis à votre écoute !</source>
+        <target>Une question ? N'hésitez pas à me contacter. Je suis à votre écoute !</target>
+      </trans-unit>
+      <trans-unit id="bB2pTUd" resname="J'utilise mon propre serveur Mail, installé sur&#10;                        un VPS avec : Postfix (SMTP), Dovecot (IMAP),&#10;                        Rspamd (antispam), Rainloop (webmail), DKIM (norme d'identification) et les filtres&#10;                        sieve.">
+        <source>J'utilise mon propre serveur Mail, installé sur
+                        un VPS avec : Postfix (SMTP), Dovecot (IMAP),
+                        Rspamd (antispam), Rainloop (webmail), DKIM (norme d'identification) et les filtres
+                        sieve.</source>
+        <target>J'utilise mon propre serveur Mail, installé sur
+                        un VPS avec : Postfix (SMTP), Dovecot (IMAP),
+                        Rspamd (antispam), Rainloop (webmail), DKIM (norme d'identification) et les filtres
+                        sieve.</target>
+      </trans-unit>
+      <trans-unit id="Q6OmKQv" resname="Vous pouvez retrouver l'article">
+        <source>Vous pouvez retrouver l'article</source>
+        <target>Vous pouvez retrouver l'article</target>
+      </trans-unit>
+      <trans-unit id="GSyXUN_" resname="sur mon blog">
+        <source>sur mon blog</source>
+        <target>sur mon blog</target>
+      </trans-unit>
+      <trans-unit id="ZyFT62v" resname="A propos">
+        <source>A propos</source>
+        <target>A propos</target>
+      </trans-unit>
+      <trans-unit id="D1.tF5H" resname="CV">
+        <source>CV</source>
+        <target>CV</target>
+      </trans-unit>
+      <trans-unit id="ZtD1I6N" resname="Skills">
+        <source>Skills</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="GFPrLp5" resname="Portfolio">
+        <source>Portfolio</source>
+        <target>Portfolio</target>
+      </trans-unit>
+      <trans-unit id="jGvAmVN" resname="Blog">
+        <source>Blog</source>
+        <target>Blog</target>
+      </trans-unit>
+      <trans-unit id="K1w9JnI" resname="Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="aJ5d29." resname="Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.&#10;                    Passionné par l'informatique et le Web depuis longtemps, je souhaite désormais en faire mon métier.&#10;                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui&#10;                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le&#10;                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2&#10;                    « Développeur web et web mobile ».&#10;                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail&#10;                    principal.">
+        <source>Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.
+                    Passionné par l'informatique et le Web depuis longtemps, je souhaite désormais en faire mon métier.
+                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui
+                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le
+                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2
+                    « Développeur web et web mobile ».
+                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail
+                    principal.</source>
+        <target>Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.
+                    Passionné par l'informatique et le Web depuis longtemps, je souhaite désormais en faire mon métier.
+                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui
+                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le
+                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2
+                    « Développeur web et web mobile ».
+                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail
+                    principal.</target>
+      </trans-unit>
+      <trans-unit id=".P.U2Si" resname="J'ai aussi pu acquérir de nouvelles&#10;                    compétences liées&#10;                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur&#10;                    web (gestion de projets, versioning, ...).&#10;                    &lt;br&gt; Je possède également des compétences d'administration réseau,&#10;                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).&#10;                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).&#10;                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).">
+        <source>J'ai aussi pu acquérir de nouvelles
+                    compétences liées
+                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur
+                    web (gestion de projets, versioning, ...).
+                    &lt;br&gt; Je possède également des compétences d'administration réseau,
+                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
+                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
+                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).</source>
+        <target><![CDATA[J'ai aussi pu acquérir de nouvelles
+                    compétences liées
+                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur
+                    web (gestion de projets, versioning, ...).
+                    <br> Je possède également des compétences d'administration réseau,
+                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
+                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
+                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).]]></target>
+      </trans-unit>
+      <trans-unit id="XpeI40y" resname="Je recherche un emploi de développeur web PHP/Symfony sur la région de&#10;                            Nevers">
+        <source>Je recherche un emploi de développeur web PHP/Symfony sur la région de
+                            Nevers</source>
+        <target>Je recherche un emploi de développeur web PHP/Symfony sur la région de
+                            Nevers</target>
+      </trans-unit>
+      <trans-unit id="TY5ofDI" resname="Je suis ouvert au télétravail. Je saurai être mobile sur toute la France pour un projet&#10;                        passionnant...">
+        <source>Je suis ouvert au télétravail. Je saurai être mobile sur toute la France pour un projet
+                        passionnant...</source>
+        <target>Je suis ouvert au télétravail. Je saurai être mobile sur toute la France pour un projet
+                        passionnant...</target>
+      </trans-unit>
+      <trans-unit id="gsEYSi1" resname="Nom :">
+        <source>Nom :</source>
+        <target>Nom :</target>
+      </trans-unit>
+      <trans-unit id="N5M6fGj" resname="Site web :">
+        <source>Site web :</source>
+        <target>Site web :</target>
+      </trans-unit>
+      <trans-unit id="o9c1cRf" resname="Téléphone :">
+        <source>Téléphone :</source>
+        <target>Téléphone :</target>
+      </trans-unit>
+      <trans-unit id="yIQx9qY" resname="Adresse :">
+        <source>Adresse :</source>
+        <target>Adresse :</target>
+      </trans-unit>
+      <trans-unit id="rZbsxRB" resname="Age :">
+        <source>Age :</source>
+        <target>Age :</target>
+      </trans-unit>
+      <trans-unit id="Zp4yN27" resname="Niveau d'étude :">
+        <source>Niveau d'étude :</source>
+        <target>Niveau d'étude :</target>
+      </trans-unit>
+      <trans-unit id="rfnbFR_" resname="Niveau 6 (normes européennes)">
+        <source>Niveau 6 (normes européennes)</source>
+        <target>Niveau 6 (normes européennes)</target>
+      </trans-unit>
+      <trans-unit id="liYPWYa" resname="E-mail :">
+        <source>E-mail :</source>
+        <target>E-mail :</target>
+      </trans-unit>
+      <trans-unit id="3R13nil" resname="Status :">
+        <source>Status :</source>
+        <target>Status :</target>
+      </trans-unit>
+      <trans-unit id="f2ece_K" resname="Curriculum Vitae">
+        <source>Curriculum Vitae</source>
+        <target>Curriculum Vitae</target>
+      </trans-unit>
+      <trans-unit id="SJy.Uto" resname="La diversité des structures dans lesquelles j’ai exercé et l’éclectisme de mon parcours me confèrent&#10;                aujourd’hui une réelle polyvalence">
+        <source>La diversité des structures dans lesquelles j’ai exercé et l’éclectisme de mon parcours me confèrent
+                aujourd’hui une réelle polyvalence</source>
+        <target>La diversité des structures dans lesquelles j’ai exercé et l’éclectisme de mon parcours me confèrent
+                aujourd’hui une réelle polyvalence</target>
+      </trans-unit>
+      <trans-unit id="SaY9cr4" resname="Formation">
+        <source>Formation</source>
+        <target>Formation</target>
+      </trans-unit>
+      <trans-unit id="cxdKW_o" resname="Expérience professionnelle">
+        <source>Expérience professionnelle</source>
+        <target>Expérience professionnelle</target>
+      </trans-unit>
+      <trans-unit id="h1IQXP8" resname="Portfolio d'Olivier Prieur : développeur web PHP Symfony">
+        <source>Portfolio d'Olivier Prieur : développeur web PHP Symfony</source>
+        <target>Portfolio d'Olivier Prieur : développeur web PHP Symfony</target>
+      </trans-unit>
+      <trans-unit id="x3WhJch" resname="Hard skills (savoirs et savoirs-faire) &amp; Soft Skills (personnalité et savoir-être)">
+        <source>Hard skills (savoirs et savoirs-faire) &amp; Soft Skills (personnalité et savoir-être)</source>
+        <target><![CDATA[Hard skills (savoirs et savoirs-faire) & Soft Skills (personnalité et savoir-être)]]></target>
+      </trans-unit>
+      <trans-unit id="lSluePX" resname="Hard skills">
+        <source>Hard skills</source>
+        <target>Hard skills</target>
+      </trans-unit>
+      <trans-unit id="LpoTtwK" resname="Soft skills">
+        <source>Soft skills</source>
+        <target>Soft skills</target>
+      </trans-unit>
+      <trans-unit id="qqWc2XW" resname="Prestations">
+        <source>Prestations</source>
+        <target>Prestations</target>
+      </trans-unit>
+      <trans-unit id="e_Y_8CW" resname="Des prestations adaptées à vos besoins">
+        <source>Des prestations adaptées à vos besoins</source>
+        <target>Des prestations adaptées à vos besoins</target>
+      </trans-unit>
+      <trans-unit id="18gge0l" resname="Intégration Web">
+        <source>Intégration Web</source>
+        <target>Intégration Web</target>
+      </trans-unit>
+      <trans-unit id="Yad3Guh" resname="Intégrations HTML/CSS respectueuses des standards&#10;                            web">
+        <source>Intégrations HTML/CSS respectueuses des standards
+                            web</source>
+        <target>Intégrations HTML/CSS respectueuses des standards
+                            web</target>
+      </trans-unit>
+      <trans-unit id="annkURy" resname="Gestion de projets web">
+        <source>Gestion de projets web</source>
+        <target>Gestion de projets web</target>
+      </trans-unit>
+      <trans-unit id="5lSPrQX" resname="Site vitrine, blog, corporate, évènementiel">
+        <source>Site vitrine, blog, corporate, évènementiel</source>
+        <target>Site vitrine, blog, corporate, évènementiel</target>
+      </trans-unit>
+      <trans-unit id="LV9QFx1" resname="Projets spécifiques">
+        <source>Projets spécifiques</source>
+        <target>Projets spécifiques</target>
+      </trans-unit>
+      <trans-unit id="jmlPF1z" resname="Des outils adaptés, applications et solutions&#10;                            personnalisées">
+        <source>Des outils adaptés, applications et solutions
+                            personnalisées</source>
+        <target>Des outils adaptés, applications et solutions
+                            personnalisées</target>
+      </trans-unit>
+      <trans-unit id="1nCBnqW" resname="Responsive design">
+        <source>Responsive design</source>
+        <target>Responsive design</target>
+      </trans-unit>
+      <trans-unit id="YeuC16t" resname="Compatible tous supports, tablette &amp; application&#10;                            mobile">
+        <source>Compatible tous supports, tablette &amp; application
+                            mobile</source>
+        <target><![CDATA[Compatible tous supports, tablette & application
+                            mobile]]></target>
+      </trans-unit>
+      <trans-unit id="mBs8ygI" resname="Le Blog">
+        <source>Le Blog</source>
+        <target>Le Blog</target>
+      </trans-unit>
+      <trans-unit id="jq5YxPO" resname="Je sélectionne régulièrement des articles traitant du développement web, de Gnu/Linux ou&#10;                    du Libre en général. Ils alimentent&#10;                    quotidiennement ma veille technlogique.">
+        <source>Je sélectionne régulièrement des articles traitant du développement web, de Gnu/Linux ou
+                    du Libre en général. Ils alimentent
+                    quotidiennement ma veille technlogique.</source>
+        <target>Je sélectionne régulièrement des articles traitant du développement web, de Gnu/Linux ou
+                    du Libre en général. Ils alimentent
+                    quotidiennement ma veille technlogique.</target>
+      </trans-unit>
+      <trans-unit id="8oCkkjE" resname="Voir tous&#10;                        les posts du blog">
+        <source>Voir tous
+                        les posts du blog</source>
+        <target>Voir tous
+                        les posts du blog</target>
+      </trans-unit>
+      <trans-unit id="ovvHVLn" resname="Le">
+        <source>Le</source>
+        <target>Le</target>
+      </trans-unit>
+      <trans-unit id="ydnSxL6" resname="par">
+        <source>par</source>
+        <target>par</target>
+      </trans-unit>
+      <trans-unit id="xGWsLuh" resname="Lire la suite">
+        <source>Lire la suite</source>
+        <target>Lire la suite</target>
+      </trans-unit>
+      <trans-unit id="9lQYo5j" resname="Voici quelques exemples de mes réalisations ainsi que les certifications&#10;                obtenues">
+        <source>Voici quelques exemples de mes réalisations ainsi que les certifications
+                obtenues</source>
+        <target>Voici quelques exemples de mes réalisations ainsi que les certifications
+                obtenues</target>
+      </trans-unit>
+      <trans-unit id="FFwsmo6" resname="Voir toutes&#10;                    les fiches du portfolio">
+        <source>Voir toutes
+                    les fiches du portfolio</source>
+        <target>Voir toutes
+                    les fiches du portfolio</target>
+      </trans-unit>
+      <trans-unit id="u7E_daZ" resname="Réseaux sociaux">
+        <source>Réseaux sociaux</source>
+        <target>Réseaux sociaux</target>
+      </trans-unit>
+      <trans-unit id="DhQaFg5" resname="Mon adresse e-mail">
+        <source>Mon adresse e-mail</source>
+        <target>Mon adresse e-mail</target>
+      </trans-unit>
+      <trans-unit id="AaYT74D" resname="Mon téléphone">
+        <source>Mon téléphone</source>
+        <target>Mon téléphone</target>
+      </trans-unit>
+      <trans-unit id="Xuqro9w" resname="Je suis à votre écoute !">
+        <source>Je suis à votre écoute !</source>
+        <target>Je suis à votre écoute !</target>
+      </trans-unit>
+      <trans-unit id="hM9xpY4" resname="Pour toute question, n'hésitez pas à me contacter !">
+        <source>Pour toute question, n'hésitez pas à me contacter !</source>
+        <target>Pour toute question, n'hésitez pas à me contacter !</target>
+      </trans-unit>
+      <trans-unit id="GeQnf3D" resname="Eventuellement, merci de me détailler autant que possible votre question afin de&#10;                        faciliter nos futurs échanges.">
+        <source>Eventuellement, merci de me détailler autant que possible votre question afin de
+                        faciliter nos futurs échanges.</source>
+        <target>Eventuellement, merci de me détailler autant que possible votre question afin de
+                        faciliter nos futurs échanges.</target>
+      </trans-unit>
+      <trans-unit id="MIWQ7t_" resname="Un formulaire de contact est disponible en cliquant sur le bouton suivant&#10;                        :">
+        <source>Un formulaire de contact est disponible en cliquant sur le bouton suivant
+                        :</source>
+        <target>Un formulaire de contact est disponible en cliquant sur le bouton suivant
+                        :</target>
+      </trans-unit>
+      <trans-unit id="2tIjxGO" resname="Me&#10;                            contacter">
+        <source>Me
+                            contacter</source>
+        <target>Me
+                            contacter</target>
+      </trans-unit>
+      <trans-unit id="iF0y1Bx" resname="Je suis développeur web PHP/Symfony">
+        <source>Je suis développeur web PHP/Symfony</source>
+        <target>Je suis développeur web PHP/Symfony</target>
+      </trans-unit>
+      <trans-unit id="JoOjjsl" resname="Blog : tous les posts">
+        <source>Blog : tous les posts</source>
+        <target>Blog : tous les posts</target>
+      </trans-unit>
+      <trans-unit id="e1pHRc_" resname="Publié le">
+        <source>Publié le</source>
+        <target>Publié le</target>
+      </trans-unit>
+      <trans-unit id="OjYXBMa" resname="Détails du Post :">
+        <source>Détails du Post :</source>
+        <target>Détails du Post :</target>
+      </trans-unit>
+      <trans-unit id="yGUk1QD" resname="Liste des Posts">
+        <source>Liste des Posts</source>
+        <target>Liste des Posts</target>
+      </trans-unit>
+      <trans-unit id="KdSoydy" resname="Post :">
+        <source>Post :</source>
+        <target>Post :</target>
+      </trans-unit>
+      <trans-unit id="0ldoZmO" resname="Lien vers le media :">
+        <source>Lien vers le media :</source>
+        <target>Lien vers le media :</target>
+      </trans-unit>
+      <trans-unit id="_ri_8Ic" resname="Plus de détails">
+        <source>Plus de détails</source>
+        <target>Plus de détails</target>
+      </trans-unit>
+      <trans-unit id="Kw7jc7t" resname="Les derniers Posts">
+        <source>Les derniers Posts</source>
+        <target>Les derniers Posts</target>
+      </trans-unit>
+      <trans-unit id="ssEkU20" resname="Nom">
+        <source>Nom</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="QERVmkw" resname="Votre message">
+        <source>Votre message</source>
+        <target>Votre message</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="WIDlngw" resname="Auteur">
+        <source>Auteur</source>
+        <target>Auteur</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="em3lZw6" resname="Contenu">
+        <source>Contenu</source>
+        <target>Contenu</target>
+      </trans-unit>
+      <trans-unit id="f7mGvaw" resname="Blog :">
+        <source>Blog :</source>
+        <target>Blog :</target>
+      </trans-unit>
+      <trans-unit id="tF6GeBO" resname="Téléchargez mon CV .pdf">
+        <source>Téléchargez mon CV .pdf</source>
+        <target>Téléchargez mon CV .pdf</target>
+      </trans-unit>
+      <trans-unit id="Ni9TlBg" resname="&#10;            Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.&#10;        ">
+        <source>
+            Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.
+        </source>
+        <target>__
+            Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.
+        </target>
+      </trans-unit>
+      <trans-unit id="N9RkrFr" resname="Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony">
+        <source>Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony</source>
+        <target>__Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony</target>
+      </trans-unit>
+      <trans-unit id="RhSOJQ5" resname="Erreur">
+        <source>Erreur</source>
+        <target>__Erreur</target>
+      </trans-unit>
+      <trans-unit id="uLJ1qS0" resname="Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.&#10;                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui&#10;                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le&#10;                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2&#10;                    « Développeur web et web mobile ».&#10;                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail&#10;                    principal.">
+        <source>Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.
+                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui
+                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le
+                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2
+                    « Développeur web et web mobile ».
+                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail
+                    principal.</source>
+        <target>Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.
+                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui
+                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le
+                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2
+                    « Développeur web et web mobile ».
+                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail
+                    principal.</target>
+      </trans-unit>
+      <trans-unit id="zhKS5yP" resname="J'ai aussi pu acquérir de nouvelles compétences liées&#10;                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur&#10;                    web (gestion de projets, versioning, ...).&#10;                    &lt;br&gt; Je possède également des compétences d'administration réseau,&#10;                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).&#10;                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).&#10;                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).">
+        <source>J'ai aussi pu acquérir de nouvelles compétences liées
+                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur
+                    web (gestion de projets, versioning, ...).
+                    &lt;br&gt; Je possède également des compétences d'administration réseau,
+                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
+                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
+                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).</source>
+        <target><![CDATA[J'ai aussi pu acquérir de nouvelles compétences liées
+                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur
+                    web (gestion de projets, versioning, ...).
+                    <br> Je possède également des compétences d'administration réseau,
+                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
+                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
+                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).]]></target>
+      </trans-unit>
+      <trans-unit id="HipJ6cp" resname="En poste">
+        <source>En poste</source>
+        <target>En poste</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

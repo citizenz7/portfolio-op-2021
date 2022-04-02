@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Portfolio d'Olivier Prieur : développeur web PHP Symfony{% endtrans %}{% endblock %}
+
+{% block body %}
+
+    {% include 'home/hero.html.twig' %}
+
+    <main id="main">
+
+        {% include 'home/apropos.html.twig' %}
+
+        {% include 'home/cv.html.twig' %}
+
+        {% include 'home/skills.html.twig' %}
+
+        {#% include 'home/prestations.html.twig' %#}
+
+        {% include 'home/portfolio.html.twig' %}
+
+        {% include 'home/blog.html.twig' %}
+
+        {% include 'home/contact.html.twig' %}
+
+    </main><!-- End #main -->
+
+{% endblock %}

@@ -1,0 +1,30 @@
+<!-- ======= Header ======= -->
+<header id="header"
+    class="fixed-top d-flex justify-content-center align-items-center {% if current_menu is defined and current_menu == 'home' %} header-transparent {% endif %}">
+
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a class="nav-link scrollto active" href="{{ path('home') }}#hero">{% trans %}Accueil{% endtrans %}</a>
+            </li>
+            <li><a class="nav-link scrollto" href="{{ path('home') }}#about">{% trans %}A propos{% endtrans %}</a></li>
+            <li><a class="nav-link scrollto" href="{{ path('home') }}#resume">{% trans %}CV{% endtrans %}</a></li>
+            <li><a class="nav-link scrollto" href="{{ path('home') }}#skills">{% trans %}Skills{% endtrans %}</a></li>
+            <!--<li><a class="nav-link scrollto" href="{{ path('home') }}#prestations">Prestations</a></li>-->
+            <li><a class="nav-link scrollto " href="{{ path('home') }}#portfolio">{% trans %}Portfolio{% endtrans %}</a>
+            </li>
+            <li><a class="nav-link scrollto" href="{{ path('home') }}#blog">{% trans %}Blog{% endtrans %}</a></li>
+            <li><a class="nav-link scrollto" href="{{ path('home') }}#contact">{% trans %}Contact{% endtrans %}</a></li>
+            {% for locale in locales %}
+                {% if locale != app.request.locale %}
+                    <li>
+                        <a class="nav-link" href="{{ path('change_locale', {'locale': locale}) }}">
+                            <img src="{{ asset('img/'~locale~'.png') }}" alt="{{ locale }}" class="img-fluid">
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+</header><!-- End Header -->

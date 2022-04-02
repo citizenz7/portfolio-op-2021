@@ -1,0 +1,41 @@
+<!-- ======= My Services Section ======= -->
+<section id="skills" class="services">
+    <div class="container">
+
+        <div class="section-title">
+            <span>{% trans %}Skills{% endtrans %}</span>
+            <h2>{% trans %}Skills{% endtrans %}</h2>
+            <p>
+                {% trans %}Hard skills (savoirs et savoirs-faire) & Soft Skills (personnalité et savoir-être){% endtrans %}
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon"><i class="bi bi-tools"></i></div>
+                    <h4 class="title">{% trans %}Hard skills{% endtrans %}</h4>
+                    <p class="description">
+                        {% for hardSkill in hardSkills %}
+                            {{ hardSkill.titre }},
+                        {% endfor %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon"><i class="bi bi-emoji-heart-eyes"></i></div>
+                    <h4 class="title">{% trans %}Soft skills{% endtrans %}</h4>
+                    <p class="description">
+                        {% for softSkill in softSkills %}
+                            {{ softSkill.titre }},
+                        {% endfor %}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End My Services Section -->

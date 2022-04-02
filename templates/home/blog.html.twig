@@ -1,0 +1,54 @@
+<!-- ======= News ======= -->
+<section id="blog" class="blog">
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+
+            <div class="section-title">
+                <span>{% trans %}Le Blog{% endtrans %}</span>
+                <h2>{% trans %}Le Blog{% endtrans %}</h2>
+                <p>
+                    {% trans %}Je sélectionne régulièrement des articles traitant du développement web, de Gnu/Linux ou
+                    du Libre en général. Ils alimentent
+                    quotidiennement ma veille technlogique.{% endtrans %}
+                </p>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col d-flex justify-content-center">
+                    <a href="{{ path('posts') }}" class="btn btn-lg btn-outline-warning">&#8594; {% trans %}Voir tous
+                        les posts du blog{% endtrans %}</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h3>{% trans %}Les derniers Posts{% endtrans %}</h3>
+                {% for post in posts %}
+                <div class="col-md-3">
+                    <div class="post-entry">
+                        <a href="{{ path('detailpost', {'slug': post.slug}) }}" class="d-block mb-4">
+                            <img src="{{ asset('uploads/posts/' ~ post.image) | imagine_filter('posthome') }}"
+                                alt="Image" class="img-fluid rounded">
+                        </a>
+                        <div class="post-text">
+                            <span class="post-meta">{% trans %}Le{% endtrans %} {{ post.createdAt|format_datetime('medium', 'short') }}
+                                &bullet; {% trans %}par{% endtrans %} {{ post.auteur.prenom }} {{ post.auteur.nom }}</span>
+                            {% for cat in post.categorie %}
+                            <span class="badge text-dark border me-1" style="font-size:10px;">
+                                {{ cat.titre }}
+                            </span>
+                            {% endfor %}
+                            <h3 class="mt-2"><a
+                                    href="{{ path('detailpost', {'slug': post.slug}) }}">{{ post.titre }}</a></h3>
+                            <p>{{ post.contenu|u.truncate(150, '...', false)|raw }}</p>
+                            <p><a href="{{ path('detailpost', {'slug': post.slug}) }}" class="readmore">&#8594; {% trans %}Lire la suite{% endtrans %}</a></p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </div>
+
+</section>

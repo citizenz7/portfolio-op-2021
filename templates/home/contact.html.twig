@@ -1,0 +1,80 @@
+<!-- ======= Contact Me Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <span>{% trans %}Me contacter{% endtrans %}</span>
+            <h2>{% trans %}Me contacter{% endtrans %}</h2>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-8">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="info-box">
+                            <i class="bx bx-share-alt"></i>
+                            <h3>{% trans %}Réseaux sociaux{% endtrans %}</h3>
+                            <div class="social-links">
+                                <a href="https://twitter.com/citizenz58" class="twitter"><i
+                                        class="bx bxl-twitter"></i></a>
+                                <a href="https://www.facebook.com/oprieur.pro.7/" class="facebook"><i
+                                        class="bx bxl-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/olivier-prieur-201298218/" class="linkedin"><i
+                                        class="bx bxl-linkedin"></i></a>
+                                <a href="https://github.com/citizenz7" class="github"><i class="bx bxl-github"></i></a>
+                                <a href="https://gitlab.com/citizenz7" class="gitlab"><i class="bx bxl-gitlab"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box mt-4">
+                            <i class="bx bx-envelope"></i>
+                            <h3>{% trans %}Mon adresse e-mail{% endtrans %}</h3>
+                            <p>oprieur@protonmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box mt-4">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>{% trans %}Mon téléphone{% endtrans %}</h3>
+                            {% if app.request.locale == 'fr' %}
+                                <p>06.30.65.19.52</p>
+                            {% else %}
+                                <p>+33 630651952</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="info-box h-100">
+                    <p class="mb-3">
+                        <i class="bx bx-envelope mb-3"></i>
+                        <h3 class="mb-3">{% trans %}Je suis à votre écoute !{% endtrans %}</h3>
+                    </p>
+                    <p class="mb-3">
+                        {% trans %}Pour toute question, n'hésitez pas à me contacter !{% endtrans %}
+                    </p>
+                    <p class="mb-3">
+                        {% trans %}Eventuellement, merci de me détailler autant que possible votre question afin de
+                        faciliter nos futurs échanges.{% endtrans %}
+                    </p>
+                    <p class="mb-4">
+                        {% trans %}Un formulaire de contact est disponible en cliquant sur le bouton suivant
+                        :{% endtrans %}
+                    </p>
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-lg btn-primary mx-4" href="{{ path('contact') }}">{% trans %}Me
+                            contacter{% endtrans %}</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Contact Me Section -->
