@@ -368,6 +368,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 30px;
   }
+  p, ul {
+    font-size:0.85rem;
+  }
 }
 
 @-webkit-keyframes up-down {
@@ -1177,13 +1180,13 @@ section {
 }
 
 .contact .social-links a {
-  font-size: 16px;
+  font-size: 15px;
   display: inline-block;
   color: #687683;
   line-height: 1;
-  margin: 0 5px;
+  margin: 0 2px;
   transition: 0.3s;
-  padding: 10px;
+  padding: 7px;
   border-radius: 50px;
   border: 1px solid #dde1e4;
 }

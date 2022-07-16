@@ -483,17 +483,17 @@
         <source>
             Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.
         </source>
-        <target>__
+        <target>
             Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.
         </target>
       </trans-unit>
       <trans-unit id="N9RkrFr" resname="Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony">
         <source>Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony</source>
-        <target>__Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony</target>
+        <target>Bienvenue sur le portfolio d'Olivier Prieur, développeur web PHP Symfony</target>
       </trans-unit>
       <trans-unit id="RhSOJQ5" resname="Erreur">
         <source>Erreur</source>
-        <target>__Erreur</target>
+        <target>Erreur</target>
       </trans-unit>
       <trans-unit id="uLJ1qS0" resname="Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.&#10;                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui&#10;                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le&#10;                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2&#10;                    « Développeur web et web mobile ».&#10;                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail&#10;                    principal.">
         <source>Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.
@@ -530,6 +530,18 @@
       <trans-unit id="HipJ6cp" resname="En poste">
         <source>En poste</source>
         <target>En poste</target>
+      </trans-unit>
+      <trans-unit id="I9eatQ4" resname="Je suis développeur web backend Symfony">
+        <source>Je suis développeur web backend Symfony</source>
+        <target>Je suis développeur web backend Symfony</target>
+      </trans-unit>
+      <trans-unit id="jBvrnLS" resname="Portfolio d'Olivier Prieur : développeur web backend Symfony">
+        <source>Portfolio d'Olivier Prieur : développeur web backend Symfony</source>
+        <target>Portfolio d'Olivier Prieur : développeur web backend Symfony</target>
+      </trans-unit>
+      <trans-unit id="t22XbuM" resname="Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony">
+        <source>Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony</source>
+        <target>Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony</target>
       </trans-unit>
     </body>
   </file>

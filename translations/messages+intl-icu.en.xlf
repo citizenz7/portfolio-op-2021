@@ -31,7 +31,7 @@
       </trans-unit>
       <trans-unit id="qjP9Mx6" resname="Accès interdit !">
         <source>Accès interdit !</source>
-        <target>Access forbidden !</target>
+        <target>Access forbidden!</target>
       </trans-unit>
       <trans-unit id="q2ZaIdZ" resname="&quot;Vous ne passerez pas !&quot;">
         <source>"Vous ne passerez pas !"</source>
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="vDj_lX9" resname="UH OH! Vous êtes perdu ?!!">
         <source>UH OH! Vous êtes perdu ?!!</source>
-        <target>UH OH! You are lost ?!!</target>
+        <target>UH OH! You are lost?!!</target>
       </trans-unit>
       <trans-unit id="NtT9GIg" resname="La page que vous recherchez n'existe pas. Je ne comprends même pas comment vous êtes arrivé(e) ici ! :D">
         <source>La page que vous recherchez n'existe pas. Je ne comprends même pas comment vous êtes arrivé(e) ici ! :D</source>
@@ -116,7 +116,7 @@
       </trans-unit>
       <trans-unit id="Jsk_1lM" resname="Une question ? N'hésitez pas à me contacter. Je suis à votre écoute !">
         <source>Une question ? N'hésitez pas à me contacter. Je suis à votre écoute !</source>
-        <target>A question ? Do not hesitate to contact me. I'm listening to you !</target>
+        <target>A question? Do not hesitate to contact me. I'm listening to you!</target>
       </trans-unit>
       <trans-unit id="QsnsvAD" resname="J'utilise mon propre serveur Mail, installé sur un VPS avec : Postfix (SMTP), Dovecot (IMAP), Rspamd (antispam), Rainloop (webmail), DKIM (norme d'identification) et les filtres sieve.">
         <source>J'utilise mon propre serveur Mail, installé sur un VPS avec : Postfix (SMTP), Dovecot (IMAP), Rspamd (antispam), Rainloop (webmail), DKIM (norme d'identification) et les filtres sieve.</source>
@@ -195,7 +195,7 @@
       </trans-unit>
       <trans-unit id="yIQx9qY" resname="Adresse :">
         <source>Adresse :</source>
-        <target>Address :</target>
+        <target>Address:</target>
       </trans-unit>
       <trans-unit id="rZbsxRB" resname="Age :">
         <source>Age :</source>
@@ -211,7 +211,7 @@
       </trans-unit>
       <trans-unit id="liYPWYa" resname="E-mail :">
         <source>E-mail :</source>
-        <target>Email :</target>
+        <target>Email:</target>
       </trans-unit>
       <trans-unit id="3R13nil" resname="Status :">
         <source>Status :</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="KdSoydy" resname="Post :">
         <source>Post :</source>
-        <target>Post :</target>
+        <target>Post:</target>
       </trans-unit>
       <trans-unit id="0ldoZmO" resname="Lien vers le media :">
         <source>Lien vers le media :</source>
@@ -438,9 +438,9 @@
                     d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
                     Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
                     J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).</source>
-        <target><![CDATA[I was also able to acquire new skills related to good practices and professional know-how essential in the profession of web developer (project management, versioning, ...). 
-          <br> I also have skills in network administration, Linux system administration and some DevOps notions (Docker, Gitlab CI, ...). 
-          Using Linux and free softwares (libre), I like the convivial times of the install parties. I blog (www.citizenz.info). 
+        <target><![CDATA[I was also able to acquire new skills related to good practices and professional know-how essential in the profession of web developer (project management, versioning, ...).
+          <br> I also have skills in network administration, Linux system administration and some DevOps notions (Docker, Gitlab CI, ...).
+          Using Linux and free softwares (libre), I like the convivial times of the install parties. I blog (www.citizenz.info).
           I created a cryptocurrency in early 2020: PengolinCoin (www.pengolincoin.xyz).]]></target>
       </trans-unit>
       <trans-unit id="XpeI40y" resname="Je recherche un emploi de développeur web PHP/Symfony sur la région de&#10;                            Nevers">
@@ -548,8 +548,7 @@
         <source>
             Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.
         </source>
-        <target>__
-            Votre commentaire a bien été envoyé ! Merci ! Il sera publié dès qu'il sera appouvé par le modérateur.
+        <target>Your comment has been sent!! Thanks ! It will be pusblished as soon as it's approved by the moderator'.
         </target>
       </trans-unit>
       <trans-unit id="uLJ1qS0" resname="Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.&#10;                    J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui&#10;                    complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le&#10;                    cadre de projets associatifs. Je suis aujourd’hui titulaire d’un Titre Professionnel BAC+2&#10;                    « Développeur web et web mobile ».&#10;                    Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail&#10;                    principal.">
@@ -560,8 +559,8 @@
                     « Développeur web et web mobile ».
                     Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail
                     principal.</source>
-        <target>My name is Olivier Prieur. I am a web developer in Nevers, in the western Burgundy region. I resumed classes in 2020 in 
-                  order to acquire new skills in web development which now complement those already acquired in the context of my previous 
+        <target>My name is Olivier Prieur. I am a web developer in Nevers, in the western Burgundy region. I resumed classes in 2020 in
+                  order to acquire new skills in web development which now complement those already acquired in the context of my previous
                   assignments and in the context of associative projects. I now hold a BAC + 2 Professional Title "Web and mobile web developer".
                   I code mainly in PHP and have adopted the Symfony framework as my main working tool.</target>
       </trans-unit>
@@ -573,15 +572,27 @@
                     d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
                     Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
                     J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).</source>
-        <target><![CDATA[I was also able to acquire new skills related to good practices and professional know-how essential 
+        <target>I was also able to acquire new skills related to good practices and professional know-how essential
                     in the profession of web developer (project management, versioning, ...).
                     I also have skills in network administration, Linux system administration and some DevOps notions (Docker, Gitlab CI, ...).
                     Opensource software and Gnu / Linux user, I like the user-friendly times of install parties. I blog (www.citizenz.info).
-                    I created a cryptocurrency in early 2020: PengolinCoin (www.pengolincoin.xyz). ]]></target>
+                    I created a cryptocurrency in early 2020: PengolinCoin (www.pengolincoin.xyz). </target>
       </trans-unit>
       <trans-unit id="HipJ6cp" resname="En poste">
         <source>En poste</source>
         <target>Not available</target>
+      </trans-unit>
+      <trans-unit id="I9eatQ4" resname="Je suis développeur web backend Symfony">
+        <source>Je suis développeur web backend Symfony</source>
+        <target>i'm a backend Symfony web developer</target>
+      </trans-unit>
+      <trans-unit id="jBvrnLS" resname="Portfolio d'Olivier Prieur : développeur web backend Symfony">
+        <source>Portfolio d'Olivier Prieur : développeur web backend Symfony</source>
+        <target>Olivier Prieur's portfolio: backend Symfony web developer</target>
+      </trans-unit>
+      <trans-unit id="t22XbuM" resname="Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony">
+        <source>Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony</source>
+        <target>Welcome: i'm Olivier Prieur, backend Symfony web developer</target>
       </trans-unit>
     </body>
   </file>
