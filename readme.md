@@ -35,11 +35,12 @@ Ce qui donnera par exemple :
 symfony console app:create-user john.doe@gmail.com password
 ```
 
-### Tests unitaires
+### Translations
 ```
-symfony console make:unit-test
+php bin/console translation:update --force en
 ```
-Jouer les tests :
+ou
 ```
-php bin/phpunit --testdox
+php bin/console translation:extrat --force en
 ```
+... depuis Symfony 5.4

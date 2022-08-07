@@ -8,7 +8,8 @@
             </div>
 
             <div class="row mb-3">
-                <div class="col">
+                <div class="col-lg-7 col-sm-12">
+                    <img src="{{ asset('img/me.jpg') | imagine_filter('aboutme') }}" alt="Olivier Prieur" class="img-fluid float-start me-3 mt-2" style="max-height: 250px;">
                     {% trans %}Je m'appelle Olivier Prieur. Je suis développeur web à Nevers, en région Bourgogne ouest.
                     J’ai repris les cours en 2020 afin d’acquérir de nouvelles compétences en développement web qui
                     complètent aujourd’hui celles déjà acquises dans le cadre des mes précédentes missions et dans le
@@ -16,8 +17,7 @@
                     « Développeur web et web mobile ».
                     Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail
                     principal.{% endtrans %}
-                </div>
-                <div class="col">
+                    <br>
                     {% trans %}J'ai aussi pu acquérir de nouvelles compétences liées
                     aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur
                     web (gestion de projets, versioning, ...).
@@ -26,55 +26,63 @@
                     Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
                     J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).{% endtrans %}
                 </div>
+                {# <div class="col">
+                    {% trans %}J'ai aussi pu acquérir de nouvelles compétences liées
+                    aux bonnes pratiques et aux savoir-faire professionnels indispensables dans le métier de développeur
+                    web (gestion de projets, versioning, ...).
+                    <br> Je possède également des compétences d'administration réseau,
+                    d'admininistration système Linux et quelques notions DevOps (Docker, Gitlab CI, ...).
+                    Libriste et linuxien, j'aime les temps conviviaux des install parties. Je blog (www.citizenz.info).
+                    J'ai créé une cryptomonnaie début 2020 : PengolinCoin (www.pengolincoin.xyz).{% endtrans %}
+                </div> #}
+                <div class="col-lg-5 col-sm-12">
+                    <div class="col d-flex flex-column align-items-stretch">
+                        <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Nom :{% endtrans %} </strong> <span>Olivier Prieur</span></li>
+                                        <li>
+                                            <i class="bi bi-chevron-right"></i>
+                                            <strong>{% trans %}Téléphone :{% endtrans %} </strong>
+                                            {% if app.request.locale == 'fr' %}
+                                                <span>06.30.65.19.52</span>
+                                            {% else %}
+                                                <span>+33 630651952</span>
+                                            {% endif %}
+                                        </li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Adresse :{% endtrans %} </strong> <span>57, rue de Marzy 58000 Nevers</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Pays :{% endtrans %} </strong> <span>France</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Age :{% endtrans %} </strong>
+
+                                            {# calcul âge selon date de naissance #}
+                                            {% set startDate = "July 09, 1970 00:00" %}
+                                            {% set difference = date( 'now' | date() ).diff(date(startDate)) %}
+                                            {% set leftYears = difference.y %}
+
+                                            <span>{{ leftYears }}</span>
+
+                                        </li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Etude :{% endtrans %} </strong>
+                                            <span>{% trans %}Niveau 6{% endtrans %}</span>
+                                        </li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}E-mail :{% endtrans %} </strong> <span>oprieur@protonmail.com</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Status :{% endtrans %} </strong><span>{% trans %}En poste{% endtrans %}</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div><!-- End .content-->
+                </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start mb-3">
+                {# <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start mb-3">
                     <img src="{{ asset('img/me.jpg') | imagine_filter('aboutme') }}" alt="Olivier Prieur"
-                        class="img-fluid" style="background-size: cover; min-height: 500px;">
-                </div>
-                <div class="col-lg-8 d-flex flex-column align-items-stretch">
-                    <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Nom :{% endtrans %} </strong> <span>Olivier Prieur</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Blog :{% endtrans %} </strong><span>www.citizenz.info</span></li>
-                                    <li>
-                                        <i class="bi bi-chevron-right"></i>
-                                        <strong>{% trans %}Téléphone :{% endtrans %} </strong>
-                                        {% if app.request.locale == 'fr' %}
-                                            <span>06.30.65.19.52</span>
-                                        {% else %}
-                                            <span>+33 630651952</span>
-                                        {% endif %}
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Adresse :{% endtrans %} </strong> <span>57, rue de Marzy 58000 Nevers - France</span></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Age :{% endtrans %} </strong>
+                        class="img-fluid" style="background-size: cover; max-height: 300px;">
+                </div> #}
 
-                                        {# calcul âge selon date de naissance #}
-                                        {% set startDate = "July 09, 1970 00:00" %}
-                                        {% set difference = date( 'now' | date() ).diff(date(startDate)) %}
-                                        {% set leftYears = difference.y %}
 
-                                        <span>{{ leftYears }}</span>
-
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Niveau d'étude :{% endtrans %} </strong>
-                                        <span>{% trans %}Niveau 6 (normes européennes){% endtrans %}</span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}E-mail :{% endtrans %} </strong> <span>oprieur@protonmail.com</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>{% trans %}Status :{% endtrans %} </strong><span>{% trans %}En poste{% endtrans %}</span></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div><!-- End .content-->
-
-                    <div class="skills-content ps-lg-4">
+                    {# <div class="skills-content ps-lg-4">
 
                         <div class="progress">
                             <span class="skill">Gnu/Linux <i class="val">90%</i></span>
@@ -116,7 +124,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> #}
 
                 </div>
             </div>
