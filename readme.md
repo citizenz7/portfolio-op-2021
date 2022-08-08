@@ -41,6 +41,6 @@ php bin/console translation:update --force en
 ```
 ou
 ```
-php bin/console translation:extrat --force en
+php bin/console translation:extract --force en
 ```
 ... depuis Symfony 5.4

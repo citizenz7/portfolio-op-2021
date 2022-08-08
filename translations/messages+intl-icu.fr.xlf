@@ -543,6 +543,18 @@
         <source>Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony</source>
         <target>Bienvenue sur le portfolio d'Olivier Prieur, développeur web backend Symfony</target>
       </trans-unit>
+      <trans-unit id="uz9glcw" resname="Pays :">
+        <source>Pays :</source>
+        <target>Pays :</target>
+      </trans-unit>
+      <trans-unit id="DZyCHXP" resname="Etude :">
+        <source>Etude :</source>
+        <target>Etude :</target>
+      </trans-unit>
+      <trans-unit id="mHry2lj" resname="Niveau 6">
+        <source>Niveau 6</source>
+        <target>Niveau 6</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
